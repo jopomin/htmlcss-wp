@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #fff;
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+div {
+  border-radius: 8px;
+}
+
+.title {
+  margin: 25px 0;
+}
+
+#logo {
+  height: 70px;
+  max-width: 30%;
+  display: inline-block;
+  float: left;
+}
+
+#logo img {
+  height: 100%;
+}
+
+ul.menu {
+  height: 70px;
+  max-width: 65%;
+  margin-left: 5%;
+  float: right;
+}
+
+ul.menu li {
+  list-style: none;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-right: 18px;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+
+ul.menu li:last-child {
+  margin-right: 0;
+}
+
+ul.menu li a {
+  text-decoration: none;
+  color: #444;
+}
+
+ul.menu li a:hover {
+  color: #29abe2;
+}
+
+.slider {
+  float: left;
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 68%;
+  margin-right: 2%;
+  position: relative;
+}
+
+.side-boxes {
+  float: right;
+  height: 400px;
+  width: 30%;
+}
+
+.side-box {
+  width: 100%;
+  height: 122px;
+  margin-bottom: 17px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.side-box:last-child {
+  margin-bottom: 0;
+}
+
+.sd-one {
+  background-image: url('../img/img-2.jpg');
+}
+
+.sd-two {
+  background-image: url('../img/img-5.jpg');
+}
+
+.sd-three {
+  background-image: url('../img/img-6.jpg');
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+}
+
+.titolo {
+  position: absolute;
+  z-index: 9999;
+  max-width: 50%;
+  left: 0;
+  bottom: 0;
+  padding: 0 0 50px 35px;
+  color: #fff;
+}
+
+.titolo h1 {
+  line-height: 1;
+  margin-bottom: 7px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.35;
+  margin-bottom: 15px;
+}
+
+header {
+  margin-bottom: 18px;
+}
+
+main {
+  margin-bottom: 18px;
+}
+
+.main-block {
+  float:left;
+  width: 49%;
+  margin-right: 2%;
+  padding-bottom: 25px;
+}
+
+.main-block:last-child {
+  margin-right: 0;
+}
+
+.main-title {
+  margin: 25px 0 20px;
+}
+
+.main-title h2,
+.main-title p {
+  color: #444;
+}
+
+.main-title h2 {
+  font-size: 36px;
+  margin-bottom: 4px;
+}
+
+.main-ph {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.fa {
+  position: absolute;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.prima {
+  background-image: url('../img/img-3.jpg');
+}
+
+.prima:hover {
+  cursor: pointer;
+}
+
+.prima:hover .fa {
+  color: #fff;
+}
+
+.prima:hover .overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.seconda {
+  background-image: url('../img/banner-2.jpg');
+}
+
+.col-text h3 {
+  margin: 18px 0 12px;
+}
+
+.col-text {
+  color: #444;
+}
+
+footer {
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  background: #29abe2;
+  font-size: 13px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  vertical-align: middle;
+}
+
+#jpm-logo {
+  display: inline-block;
+  background-image: url('../img/jpm-w.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+#jpm-name {
+  font-weight: bold;
+}
+
+footer a:hover {
+  background: #444;
+  color: #fff;
+}
+
+footer a:active {
+  background: #fff;
+  color: #29abe2;
+}
+
+footer a:active #jpm-logo {
+    background-image: url('../img/jpm-c.png');
+}
